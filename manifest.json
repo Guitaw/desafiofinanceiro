@@ -1,0 +1,19 @@
+
+{
+  "name": "Desafio de Depósitos",
+  "short_name": "Depósitos",
+  "description": "Gerencie seus desafios de economia e atinja suas metas financeiras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#10b981",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

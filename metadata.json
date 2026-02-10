@@ -1,0 +1,7 @@
+{
+  "name": "Desafio de Depósitos",
+  "description": "App profissional para gestão de desafios financeiros com PWA habilitado.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
