@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -34,7 +33,6 @@
         -webkit-tap-highlight-color: transparent;
       }
 
-      /* Estilos para o loader inicial antes do React montar */
       #initial-loader {
         position: fixed;
         inset: 0;
@@ -92,7 +90,6 @@
         animation: bounce-slow 2s infinite ease-in-out;
       }
       
-      /* Animação de Mesh Gradient */
       .mesh-bg {
         position: fixed;
         inset: 0;
@@ -117,7 +114,6 @@
 </script>
 </head>
   <body class="bg-slate-50 dark:bg-[#0f172a] text-slate-900 dark:text-slate-200">
-    <!-- Loader imediato HTML/CSS -->
     <div id="initial-loader">
       <div class="spinner-glow"></div>
       <p style="margin-top: 24px; color: #94a3b8; font-size: 14px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;">Iniciando Sistema...</p>
@@ -125,8 +121,10 @@
 
     <div id="root"></div>
     
+    <!-- Script principal para montagem da aplicação -->
+    <script type="module" src="index.tsx"></script>
+
     <script>
-      // Remove o loader inicial quando o React assumir o controle
       window.addEventListener('load', () => {
         const loader = document.getElementById('initial-loader');
         if (loader) {

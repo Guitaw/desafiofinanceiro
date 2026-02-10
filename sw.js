@@ -1,10 +1,7 @@
-
 const CACHE_NAME = 'desafio-v1';
 const ASSETS = [
   '/',
-  '/index.html',
-  '/App.tsx',
-  '/types.ts'
+  '/index.html'
 ];
 
 self.addEventListener('install', (e) => {
